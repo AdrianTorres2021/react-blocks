@@ -1,0 +1,16 @@
+.app{
+  display: grid;
+  background-color: cornsilk;
+  grid-template-areas: 'header' 'header' 'header'
+  'navigation' 'main' 'main'
+  'navigation' 'main' 'main'
+}
+
+.header-component{
+grid-area: 'header';
+}
+
+.navigation-component{
+  grid-area:'navigation';
+  
+}

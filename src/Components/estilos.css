@@ -1,0 +1,52 @@
+.app-container{
+    display: grid;
+    background-color: cornsilk;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+}
+.app-container div{
+    border: 1px solid black;
+    text-align: center;
+    color: black;;
+    padding: 10px;
+    margin: 10px;
+}
+.header-component{
+    grid-column: 1 / 4;
+    font-size: 30px;
+    background-color: green;
+}
+.navigation-component{
+    background-color: lightblue;
+    grid-column: 1 / 2;
+    grid-row: 3 / 5;
+    font-size: 30px;
+}
+
+.main-component{
+    background-color: crimson;
+    grid-column: 2 / 4;
+    grid-row: 3 / 5;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    min-height: 97%;
+
+}
+#contenedor-en-main{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    min-height: 50%;
+    border: none;
+    justify-content: space-between;
+}
+.subcontent-components{
+    border-color: white;
+    background-color: yellow;
+    height: 250px;
+}
+
+.advertisement-component{
+    background-color: violet;
+}
